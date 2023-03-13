@@ -1,0 +1,60 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.date-book {
+  background: #e3d0d0;
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 80%;
+  padding: 40px;
+  max-width: 480px;
+}
+.date-book label {
+  display: block;
+  padding: 15px 0;
+}
+.date-book input {
+  border: 2px solid rgb(46, 46, 162);
+  border-radius: 10px;
+  padding: 15px 10px;
+}
+.date-book input:visited {
+  border: 2px solid rgb(46, 46, 162);
+}
+.date-book h1 {
+  color: rgb(29, 29, 154);
+  font-weight: 900;
+  font-size: calc(0.75rem + 2vw);
+}
+.date-book h3 {
+  color: rgb(29, 29, 154);
+  font-weight: 900;
+}
+.date-book h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.date-book .btn {
+  background: rgb(46, 46, 204);
+  color: white;
+  padding: 20px 25px;
+  border-radius: 15px;
+  border: 1px solid rgb(46, 46, 204);
+  font-weight: bold;
+  cursor: pointer;
+}
+.date-book .btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(46, 46, 204);
+  }
+.date-book input:focus {
+  outline: none;
+  border-color: #719ece;
+  box-shadow: 0 0 10px rgb(46, 46, 204);
+}

@@ -47,12 +47,10 @@ start_date.addEventListener("change", (e) => {
 });
 
 /**
- * lorsqu'on manipule la date de fin il ne faudrait pas aller
- * plus loin que la date de debut
- * si la date de debut cest le 12 mai 2023 et quon choisi une date
- * de fin le 13 mars 2023 ce n'est pas bon
- * dans ce cas on prend la date de fin prendra la date 
- * de debut auqel auquel on retranche - 1
+ * lorsqu'on manipule la date de fin il ne faudrait pas aller au-dèla de la date de debut
+ * exemple si on a une date de debut 12 mais 2023 et une date de fin le 13 mars 20237
+ * dans ce cas on a un probleme car la date de fin < a la date de debut ce qui doit etre le contraire 
+ * dans ce cas la date de debut sera la date de fin auquel on retranche -1
  
  */
 end_date.addEventListener("change", (e) => {
